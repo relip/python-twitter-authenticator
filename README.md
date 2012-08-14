@@ -10,9 +10,16 @@ Usage: TwitterOAuthAuthenticator.py [-v] [--skip-pin] -u [USERNAME] -p [PASSWORD
 ### Options
 
 -h, --help            show this help message and exit
+
 -v, --verbose         explain what is being done
+
 --skip-pin            
+
 -u, --username        
+
 -p, --password        
+
 -k, --consumer-key    
+
 -s, --consumer-secret
+
