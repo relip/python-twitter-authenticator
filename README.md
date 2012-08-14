@@ -5,7 +5,9 @@ python-twitter-authenticator is a twitter authenticator. This program needs **tw
 
 ### Usage
 
-Usage: TwitterOAuthAuthenticator.py [-v] [--skip-pin] -u [USERNAME] -p [PASSWORD] -ck [CONSUMER_KEY] -cs [CONSUMER_SECRET]
+Usage: TwitterOAuthAuthenticator.py [-v] [--skip-pin] -u [USERNAME] -p [PASSWORD] -k [CONSUMER_KEY] -s [CONSUMER_SECRET]
+
+Alternatively you can enter your username, password, ... via terminal.
 
 ### Options
 

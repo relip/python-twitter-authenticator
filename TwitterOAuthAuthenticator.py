@@ -204,7 +204,7 @@ def optional_arg(arg_default):
 
 
 if __name__ == "__main__":
-	parser = OptionParser("usage: %prog [-v] [--skip-pin] -u [USERNAME] -p [PASSWORD] -ck [CONSUMER_KEY] -cs [CONSUMER_SECRET]")
+	parser = OptionParser("usage: %prog [-v] [--skip-pin] -u [USERNAME] -p [PASSWORD] -k [CONSUMER_KEY] -s [CONSUMER_SECRET]")
 	parser.add_option("-v", "--verbose", action="store_true", dest="VERBOSE", help="explain what is being done", default=False)
 	parser.add_option("--skip-pin", action="store_true", dest="SKIP_PIN", default=False)
 	parser.add_option("-u", "--username", action="callback", dest="USERID", callback=optional_arg(None))
