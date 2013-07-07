@@ -80,6 +80,7 @@ class TwitterOAuthAuthenticator:
 			Req.add_header(x, header[x])
 
 		Result = urllib2.urlopen(Req)
+
 		return Result
 
 		
@@ -221,12 +222,11 @@ if __name__ == "__main__":
 		opt.PASSWORD = getpass.getpass()
 
 	if not opt.CONSUMERKEY:
-		opt.CONSUMEERKEY = raw_input('Consumer key: ')
+		opt.CONSUMERKEY = raw_input('Consumer key: ')
 
 	if not opt.CONSUMERSECRET:
 		opt.CONSUMERSECRET = raw_input('Consumer secret: ')
 
-	
 	TOA = TwitterOAuthAuthenticator(opt.CONSUMERKEY, opt.CONSUMERSECRET, opt.USERID, opt.PASSWORD)
 
 	result = TOA.run()	

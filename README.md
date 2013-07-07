@@ -3,6 +3,10 @@ python-twitter-authenticator
 
 python-twitter-authenticator is a twitter authenticator. This program needs **twitter username**, **password**, **consumer key** and **consumer secret**, so you need to have your own API.
 
+*PERSONAL USE ONLY*
+
+Implemeting this program can be violating twitter ToS. 
+
 ### Usage
 
 Usage: TwitterOAuthAuthenticator.py [-v] [--skip-pin] -u [USERNAME] -p [PASSWORD] -k [CONSUMER_KEY] -s [CONSUMER_SECRET]
